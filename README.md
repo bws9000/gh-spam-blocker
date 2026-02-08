@@ -65,7 +65,7 @@ GITHUB_TOKEN=ghp_your_token_here
 
  ```
 
-  ## BLOCK SOME SPAMMS
+  ## BLOCK SOME SPAM
 
  ```bash
 
