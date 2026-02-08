@@ -1,6 +1,7 @@
 {
   "name": "@bws9000/gh-spam-blocker",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "CLI tool to block GitHub users who solicit stars in their profiles",
   "type": "module",
   "bin": {
     "gh-spam-blocker": "./bin/gh-spam-blocker"
@@ -12,6 +13,23 @@
   "scripts": {
     "start": "node src/cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bws9000/gh-spam-blocker.git"
+  },
+  "homepage": "https://github.com/bws9000/gh-spam-blocker",
+  "bugs": {
+    "url": "https://github.com/bws9000/gh-spam-blocker/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "cli",
+    "spam",
+    "block",
+    "automation",
+    "security"
+  ],
   "dependencies": {
     "commander": "^11.0.0",
     "dotenv": "^17.2.4"
