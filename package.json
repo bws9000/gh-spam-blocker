@@ -1,0 +1,22 @@
+{
+  "name": "@bws9000/gh-spam-blocker",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "gh-spam-blocker": "./bin/gh-spam-blocker"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "dotenv": "^17.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
