@@ -1,9 +1,9 @@
 {
   "name": "@bws9000/gh-spam-blocker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CLI tool to block GitHub users who solicit stars in their profiles",
   "type": "module",
- "bin": "./bin/gh-spam-blocker",
+  "bin": "./bin/gh-spam-blocker",
   "files": [
     "bin",
     "src"
