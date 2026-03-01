@@ -10,6 +10,8 @@ do manually via the GitHub UI.
 
 ## Why this exists
 
+![GH Spam Blocker Demo](assets/spamola.png)
+
 GitHub has a growing number of low-effort spam accounts that:
 - follow users
 - solicit stars
@@ -39,7 +41,7 @@ No global install required.
 ```bash
 
 
-npx @bws9000/gh-spam-blocker --dry-run
+npx @bws9000/gh-spam-blocker@latest --dry-run
 ```
 
 ## SETUP
@@ -52,7 +54,7 @@ GITHUB_TOKEN=ghp_your_token_here
 ## DRY RUN FIRST
 
  ```bash
- npx @bws9000/gh-spam-blocker --dry-run
+ npx @bws9000/gh-spam-blocker@latest --dry-run
 
  ```
 
@@ -60,7 +62,7 @@ GITHUB_TOKEN=ghp_your_token_here
 
  ```bash
 
- npx @bws9000/gh-spam-blocker --dry-run --max-pages 1
+ npx @bws9000/gh-spam-blocker@latest --dry-run --max-pages 1
 
 
  ```
@@ -69,7 +71,7 @@ GITHUB_TOKEN=ghp_your_token_here
 
  ```bash
 
-npx @bws9000/gh-spam-blocker --max-pages 1
+npx @bws9000/gh-spam-blocker@latest --max-pages 1
 
 
 
