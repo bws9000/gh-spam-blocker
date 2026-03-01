@@ -10,7 +10,9 @@ do manually via the GitHub UI.
 
 ## Why this exists
 
-![GH Spam Blocker Demo](assets/spamola.png)
+<p align="center">
+  <img src="assets/spamola.png" width="600" />
+</p>
 
 GitHub has a growing number of low-effort spam accounts that:
 - follow users
